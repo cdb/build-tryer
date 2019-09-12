@@ -6,8 +6,7 @@
 trigger:
 - master
 
-pool:
-  vmImage: 'GH'
+pool: "Default"
 
 steps:
 - task: NodeTool@0
